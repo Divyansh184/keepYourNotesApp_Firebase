@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".editnoteactivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:paddingTop="20dp"
+        android:textSize="20sp"
+        android:hint="Edit Node"
+        android:padding="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:id="@+id/edittitleofnote"/>
+
+
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:hint="Edit Node"
+        android:id="@+id/editcontentofnote"
+        android:gravity="top|left"
+        android:layout_below="@id/edittitleofnote"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/saveeditnote"
+        android:contentDescription="Save note"
+        android:src="@drawable/updatee"
+        android:background="#A1F4fD"
+        app:maxImageSize="56dp"
+        />
+
+
+</RelativeLayout>
