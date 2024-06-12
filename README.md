@@ -1,0 +1,1 @@
+KeepYourNotes app is a java based app which uses firebase auth and firebase firestore to store user information on cloud storage and Notes. User can perform CRUD operations and have different accounts for different notes and can access those account from anywhere.
